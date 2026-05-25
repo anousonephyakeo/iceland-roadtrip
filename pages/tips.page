@@ -1,0 +1,274 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: accent-bar
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 30, 40, 4]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 50, 700, 50]
+    content:
+      style: "$title"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>TIPS, APPS & WARNINGS</p>
+  - elementId: apps-label
+    elementType: text
+    bounds: [60, 110, 300, 28]
+    content:
+      fontSize: 16
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>APPS TO DOWNLOAD</p>
+  - elementId: app1-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 150, 270, 140]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: app1-icon
+    elementType: icon
+    bounds: [171, 162, 48, 48]
+    iconName: "fas:mobile-screen-button"
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: app1-name
+    elementType: text
+    bounds: [75, 220, 240, 28]
+    content:
+      fontSize: 18
+      color: "$primary"
+      fontFamily: "QuattrocentoSans"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p><strong>PARKA</strong></p>
+  - elementId: app1-desc
+    elementType: text
+    bounds: [75, 252, 240, 28]
+    content:
+      fontSize: 14
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.3
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Parking at Geysir & South Coast</p>
+  - elementId: app2-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [350, 150, 270, 140]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: app2-icon
+    elementType: icon
+    bounds: [461, 162, 48, 48]
+    iconName: "fas:ticket"
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: app2-name
+    elementType: text
+    bounds: [365, 220, 240, 28]
+    content:
+      fontSize: 18
+      color: "$primary"
+      fontFamily: "QuattrocentoSans"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p><strong>CHECKIT.IS</strong></p>
+  - elementId: app2-desc
+    elementType: text
+    bounds: [365, 252, 240, 28]
+    content:
+      fontSize: 14
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.3
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Thingvellir parking</p>
+  - elementId: app3-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [640, 150, 270, 140]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: app3-icon
+    elementType: icon
+    bounds: [751, 162, 48, 48]
+    iconName: "fas:cloud-sun"
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: app3-name
+    elementType: text
+    bounds: [655, 220, 240, 28]
+    content:
+      fontSize: 18
+      color: "$primary"
+      fontFamily: "QuattrocentoSans"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p><strong>VEDUR.IS</strong></p>
+  - elementId: app3-desc
+    elementType: text
+    bounds: [645, 252, 260, 28]
+    content:
+      fontSize: 14
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.3
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Iceland weather — check every morning</p>
+  - elementId: app4-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [930, 150, 270, 140]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: app4-icon
+    elementType: icon
+    bounds: [1041, 162, 48, 48]
+    iconName: "fas:road"
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: app4-name
+    elementType: text
+    bounds: [945, 220, 240, 28]
+    content:
+      fontSize: 18
+      color: "$primary"
+      fontFamily: "QuattrocentoSans"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p><strong>ROAD.IS</strong></p>
+  - elementId: app4-desc
+    elementType: text
+    bounds: [945, 252, 240, 28]
+    content:
+      fontSize: 14
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.3
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Live road conditions</p>
+  - elementId: warnings-label
+    elementType: text
+    bounds: [60, 315, 300, 28]
+    content:
+      fontSize: 16
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>WARNINGS</p>
+  - elementId: warn1
+    elementType: text
+    bounds: [60, 360, 560, 70]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">Reynisfjara waves</span></strong></p>
+        <p>Sneaker waves come without warning — stay well back from the water</p>
+  - elementId: warn2
+    elementType: text
+    bounds: [60, 440, 560, 70]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">Windshield gravel</span></strong></p>
+        <p>Most common insurance claim — drive slowly on gravel roads</p>
+  - elementId: warn3
+    elementType: text
+    bounds: [60, 520, 560, 70]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">Fill up petrol</span></strong></p>
+        <p>Stations are far apart between attractions — fill up whenever you see one</p>
+  - elementId: warn4
+    elementType: text
+    bounds: [660, 360, 560, 70]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">Credit card PIN</span></strong></p>
+        <p>Icelandic petrol stations require PIN — call your bank before the trip</p>
+  - elementId: warn5
+    elementType: text
+    bounds: [660, 440, 560, 70]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">Extreme wind</span></strong></p>
+        <p>Can push the car sideways on open roads — grip the steering wheel firmly</p>
+  - elementId: warn6
+    elementType: text
+    bounds: [660, 520, 560, 70]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">Leave early</span></strong></p>
+        <p>7 AM every driving day — avoids all tour bus crowds at every stop</p>
+  - elementId: page-num
+    elementType: text
+    bounds: [1180, 690, 60, 20]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>09</p>

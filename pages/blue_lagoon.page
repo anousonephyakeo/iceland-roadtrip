@@ -1,0 +1,137 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: accent-bar
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 30, 40, 4]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 50, 700, 50]
+    content:
+      style: "$title"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>BLUE LAGOON DAY — MAY 27</p>
+  - elementId: lagoon-image
+    elementType: image
+    bounds: [60, 120, 480, 480]
+    src: "https://kimi-web-img.moonshot.cn/img/dotonmap.com/cf98d6f2a7f378ea0fe948e990e64ec874a63d98.jpg"
+    fit: {mode: cover}
+  - elementId: morning-label
+    elementType: text
+    bounds: [580, 120, 300, 30]
+    content:
+      fontSize: 16
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MORNING</p>
+  - elementId: morning-details
+    elementType: text
+    bounds: [580, 158, 640, 170]
+    content:
+      fontSize: 18
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong>Blue Lagoon</strong> — 20 min from Keflavik Airport</p>
+        <p>Comfort package: <strong style="color:$accent;">~$192 for two</strong></p>
+        <p>Includes: towel, one free drink, silica face mask</p>
+        <p>Spend 2–3 hours in the milky blue water</p>
+  - elementId: booking-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [580, 340, 640, 70]
+    fill:
+      type: solid
+      color: "$muted"
+  - elementId: booking-accent
+    elementType: shape
+    shapeName: rect
+    bounds: [580, 340, 4, 70]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: booking-text
+    elementType: text
+    bounds: [604, 348, 596, 54]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      align: [left, middle]
+      text: |
+        <p><strong>MUST book in advance at bluelagoon.com</strong></p>
+        <p>Sells out weeks ahead — book as soon as possible.</p>
+  - elementId: afternoon-label
+    elementType: text
+    bounds: [580, 430, 300, 30]
+    content:
+      fontSize: 16
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>AFTERNOON</p>
+  - elementId: afternoon-details
+    elementType: text
+    bounds: [580, 468, 640, 130]
+    content:
+      fontSize: 18
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Reykjavik city exploration:</p>
+        <p>· Hallgrimskirkja church · Laugavegur street</p>
+        <p>· Old Harbour seafood · Harpa Concert Hall</p>
+  - elementId: reminder-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 620, 1160, 60]
+    fill:
+      type: solid
+      color: "$primary"
+  - elementId: reminder-accent
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 620, 4, 60]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: reminder-text
+    elementType: text
+    bounds: [90, 626, 1100, 48]
+    content:
+      fontSize: 18
+      color: "$light"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      align: [left, middle]
+      text: |
+        <p><strong>REMINDER:</strong> Flight leaves at 8:35 AM tomorrow. Leave hotel by 5:30 AM. Return car before check-in.</p>
+  - elementId: page-num
+    elementType: text
+    bounds: [1180, 690, 60, 20]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>07</p>

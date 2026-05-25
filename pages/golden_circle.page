@@ -1,0 +1,213 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: accent-bar
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 30, 40, 4]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 50, 700, 50]
+    content:
+      style: "$title"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>GOLDEN CIRCLE — MAY 25</p>
+  - elementId: timeline-line
+    elementType: shape
+    shapeName: straightConnector1
+    bounds: [95, 140, 0, 450]
+    border:
+      style: solid
+      width: 2
+      color: "$accent"
+  - elementId: dot1
+    elementType: shape
+    shapeName: ellipse
+    bounds: [89, 144, 12, 12]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: item1
+    elementType: text
+    bounds: [120, 135, 540, 55]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">7:00 AM</span> — Leave Reykjavik</strong></p>
+        <p>Before 9 AM tour buses — have every place to yourselves</p>
+  - elementId: dot2
+    elementType: shape
+    shapeName: ellipse
+    bounds: [89, 204, 12, 12]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: item2
+    elementType: text
+    bounds: [120, 195, 540, 55]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">7:40 AM</span> — Hveragerdi</strong></p>
+        <p>15-min coffee break in a geothermal town</p>
+  - elementId: dot3
+    elementType: shape
+    shapeName: ellipse
+    bounds: [89, 264, 12, 12]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: item3
+    elementType: text
+    bounds: [120, 255, 540, 55]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">8:15 AM</span> — Kerid Crater</strong></p>
+        <p>Red volcanic walls, turquoise water inside, 20 min</p>
+  - elementId: dot4
+    elementType: shape
+    shapeName: ellipse
+    bounds: [89, 324, 12, 12]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: item4
+    elementType: text
+    bounds: [120, 315, 540, 55]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">Next</span> — Gullfoss Waterfall</strong></p>
+        <p>Iceland's most famous waterfall, two tiers, rainbows, 45 min, free</p>
+  - elementId: dot5
+    elementType: shape
+    shapeName: ellipse
+    bounds: [89, 384, 12, 12]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: item5
+    elementType: text
+    bounds: [120, 375, 540, 55]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">Next</span> — Geysir</strong></p>
+        <p>Watch Strokkur erupt every 5–8 minutes</p>
+  - elementId: dot6
+    elementType: shape
+    shapeName: ellipse
+    bounds: [89, 444, 12, 12]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: item6
+    elementType: text
+    bounds: [120, 435, 540, 55]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">Lunch</span> — Fridheimar Farm</strong></p>
+        <p>Restaurant inside a tomato greenhouse — book ahead</p>
+  - elementId: dot7
+    elementType: shape
+    shapeName: ellipse
+    bounds: [89, 504, 12, 12]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: item7
+    elementType: text
+    bounds: [120, 495, 540, 55]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">Next</span> — Thingvellir National Park</strong></p>
+        <p>UNESCO site where North American & Eurasian plates meet</p>
+  - elementId: dot8
+    elementType: shape
+    shapeName: ellipse
+    bounds: [89, 564, 12, 12]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: item8
+    elementType: text
+    bounds: [120, 555, 540, 40]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">2:30 PM</span> — Back in Reykjavik</strong></p>
+  - elementId: geyser-image
+    elementType: image
+    bounds: [720, 120, 500, 380]
+    src: "https://kimi-web-img.moonshot.cn/img/adventures.is/0c8f53caa93ff46bd5ad1ef95d6e0c72c8908a4b.jpg"
+    fit: {mode: cover}
+  - elementId: cost-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [720, 520, 500, 80]
+    fill:
+      type: solid
+      color: "$primary"
+  - elementId: cost-text
+    elementType: text
+    bounds: [740, 528, 460, 64]
+    content:
+      fontSize: 18
+      color: "$light"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      align: [left, middle]
+      text: |
+        <p>Cost: <strong>~$100</strong> for two people  ·  Guided tour: $225</p>
+        <p><span style="font-size:14px;">Savings: $125 + complete schedule freedom</span></p>
+  - elementId: page-num
+    elementType: text
+    bounds: [1180, 690, 60, 20]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>05</p>

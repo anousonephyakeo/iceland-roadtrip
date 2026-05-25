@@ -1,0 +1,71 @@
+# .pptd file for Iceland Road Trip 2026
+title: Iceland Road Trip 2026
+size: [1280, 720]
+theme:
+  colors:
+    primary: "#1E2A33"
+    secondary: "#6B7B8A"
+    accent: "#C4956A"
+    background: "#F7F5F0"
+    text: "#1A1D21"
+    light: "#FFFFFF"
+    muted: "#EDEAE4"
+    darkbg: "#1A1D21"
+  textStyles:
+    heroTitle:
+      fontSize: 56
+      color: "$light"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 4
+      lineHeight: 1.2
+    title:
+      fontSize: 36
+      color: "$primary"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 3
+      lineHeight: 1.2
+    subtitle:
+      fontSize: 22
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.3
+    body:
+      fontSize: 18
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.6
+    kpi:
+      fontSize: 40
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      lineHeight: 1.1
+    caption:
+      fontSize: 14
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+  tableStyles:
+    default:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      headerFill: "$primary"
+      headerColor: "$light"
+      headerBold: true
+      bodyFill: ["$background", "$muted"]
+      bodyColor: "$text"
+      firstColumnBold: true
+      border:
+        style: solid
+        width: 1
+        color: "#D5D0C8"
+pages:
+  - pages/cover.page
+  - pages/flights.page
+  - pages/overview.page
+  - pages/car.page
+  - pages/golden_circle.page
+  - pages/south_coast.page
+  - pages/blue_lagoon.page
+  - pages/budget.page
+  - pages/tips.page
+  - pages/final.page

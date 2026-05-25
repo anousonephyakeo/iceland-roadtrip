@@ -1,0 +1,159 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: accent-bar
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 30, 40, 4]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 50, 500, 50]
+    content:
+      style: "$title"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>CAR RENTAL</p>
+  - elementId: car-image
+    elementType: image
+    bounds: [60, 120, 520, 480]
+    src: "https://kimi-web-img.moonshot.cn/img/keycarrental.is/3da13e419e94b9b975ada8aff9c6e9966658b8ab.jpg"
+    fit: {mode: cover}
+  - elementId: car-image-mask
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 120, 520, 480]
+    fill:
+      type: gradient
+      gradientType: linear
+      angle: 0
+      stops:
+        - {position: 0, color: "#1A1D2100"}
+        - {position: 0.85, color: "#1A1D2100"}
+        - {position: 1, color: "#1A1D2140"}
+  - elementId: detail-rental
+    elementType: text
+    bounds: [620, 120, 600, 110]
+    content:
+      fontSize: 18
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong style="color:$primary;">Blue Car Rental</strong> at Keflavik Airport</p>
+        <p>Toyota Yaris · 4 days</p>
+        <p>Pickup: <strong>May 24, 7:00 PM</strong>  ·  Dropoff: <strong>May 28, 7:00 AM</strong></p>
+  - elementId: detail-base-label
+    elementType: text
+    bounds: [620, 250, 300, 30]
+    content:
+      fontSize: 16
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Base rental (4 days)</p>
+  - elementId: detail-base-price
+    elementType: text
+    bounds: [930, 240, 200, 50]
+    content:
+      style: "$kpi"
+      fontSize: 36
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>$160</p>
+  - elementId: insurance-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [620, 300, 600, 180]
+    fill:
+      type: solid
+      color: "$muted"
+  - elementId: insurance-accent
+    elementType: shape
+    shapeName: rect
+    bounds: [620, 300, 4, 180]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: insurance-title
+    elementType: text
+    bounds: [645, 310, 550, 30]
+    content:
+      fontSize: 18
+      color: "$primary"
+      fontFamily: "QuattrocentoSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>LIABILITY WAIVER — ESSENTIAL</strong></p>
+  - elementId: insurance-text
+    elementType: text
+    bounds: [645, 348, 555, 120]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>$38/day × 4 days = <strong style="color:$accent;">$152</strong></p>
+        <p>Without it: pay up to <strong>$650</strong> out of pocket</p>
+        <p>With it: liability drops to <strong style="color:$accent;">ZERO</strong></p>
+        <p>Covers windshields, tires, sand, ash, water, body</p>
+  - elementId: total-line
+    elementType: shape
+    shapeName: rect
+    bounds: [620, 500, 600, 2]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: total-label
+    elementType: text
+    bounds: [620, 520, 220, 35]
+    content:
+      fontSize: 20
+      color: "$primary"
+      fontFamily: "QuattrocentoSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>TOTAL COST</strong></p>
+  - elementId: total-price
+    elementType: text
+    bounds: [860, 505, 360, 60]
+    content:
+      style: "$kpi"
+      fontSize: 48
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>$473</p>
+  - elementId: total-note
+    elementType: text
+    bounds: [620, 570, 600, 30]
+    content:
+      fontSize: 14
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>For both travelers · 4 days · Full coverage</p>
+  - elementId: page-num
+    elementType: text
+    bounds: [1180, 690, 60, 20]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>04</p>

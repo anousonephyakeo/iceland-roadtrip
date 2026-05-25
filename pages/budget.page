@@ -1,0 +1,198 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: accent-bar
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 30, 40, 4]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 50, 600, 50]
+    content:
+      style: "$title"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>BUDGET COMPARISON</p>
+  - elementId: left-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 120, 570, 520]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: left-accent
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 120, 570, 5]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: left-title
+    elementType: text
+    bounds: [85, 140, 300, 36]
+    content:
+      fontSize: 22
+      color: "$primary"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>SELF-DRIVE</p>
+  - elementId: left-items
+    elementType: text
+    bounds: [85, 190, 520, 340]
+    content:
+      fontSize: 18
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.8
+      align: [left, top]
+      text: |
+        <p>Car rental <span style="color:$secondary;">$160</span></p>
+        <p>Full insurance <span style="color:$secondary;">$152</span></p>
+        <p>Fuel & road tax <span style="color:$secondary;">$108</span></p>
+        <p>Golden Circle <span style="color:$secondary;">$22</span></p>
+        <p>South Coast <span style="color:$secondary;">$21</span></p>
+        <p>Lunch (2 days) <span style="color:$secondary;">$80</span></p>
+        <p>Airport transfers <span style="color:$accent;">FREE</span></p>
+        <p>Blue Lagoon <span style="color:$secondary;">$192</span></p>
+  - elementId: left-line
+    elementType: shape
+    shapeName: rect
+    bounds: [85, 540, 520, 2]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: left-total-label
+    elementType: text
+    bounds: [85, 555, 200, 30]
+    content:
+      fontSize: 18
+      color: "$primary"
+      fontFamily: "QuattrocentoSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>GRAND TOTAL</strong></p>
+  - elementId: left-total
+    elementType: text
+    bounds: [300, 545, 305, 55]
+    content:
+      fontSize: 40
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>~$735</p>
+  - elementId: left-note
+    elementType: text
+    bounds: [85, 600, 520, 24]
+    content:
+      fontSize: 14
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Full freedom · All experiences included · Hidden gems</p>
+  - elementId: right-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [650, 120, 570, 520]
+    fill:
+      type: solid
+      color: "$muted"
+  - elementId: right-accent
+    elementType: shape
+    shapeName: rect
+    bounds: [650, 120, 570, 5]
+    fill:
+      type: solid
+      color: "$secondary"
+  - elementId: right-title
+    elementType: text
+    bounds: [675, 140, 400, 36]
+    content:
+      fontSize: 22
+      color: "$secondary"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>GUIDED TOURS</p>
+  - elementId: right-items
+    elementType: text
+    bounds: [675, 190, 520, 340]
+    content:
+      fontSize: 18
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.8
+      align: [left, top]
+      text: |
+        <p>Golden Circle tour <span style="color:$secondary;">$185</span></p>
+        <p>South Coast tour <span style="color:$secondary;">$251</span></p>
+        <p>Lunch NOT included <span style="color:$secondary;">+$80</span></p>
+        <p>Airport bus <span style="color:$secondary;">$100</span></p>
+        <p><span style="color:$secondary;">Nothing planned May 27</span></p>
+        <p><span style="color:$secondary;">No Blue Lagoon included</span></p>
+        <p><span style="color:$secondary;">Rigid time limits</span></p>
+        <p><span style="color:$secondary;">Miss hidden gems</span></p>
+  - elementId: right-line
+    elementType: shape
+    shapeName: rect
+    bounds: [675, 540, 520, 2]
+    fill:
+      type: solid
+      color: "$secondary"
+  - elementId: right-total-label
+    elementType: text
+    bounds: [675, 555, 200, 30]
+    content:
+      fontSize: 18
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>TOTAL</strong></p>
+  - elementId: right-total
+    elementType: text
+    bounds: [890, 545, 305, 55]
+    content:
+      fontSize: 40
+      color: "$secondary"
+      fontFamily: "Oranienbaum"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>~$617</p>
+  - elementId: right-note
+    elementType: text
+    bounds: [675, 600, 520, 24]
+    content:
+      fontSize: 14
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Less experience · No freedom · Missing a full day</p>
+  - elementId: page-num
+    elementType: text
+    bounds: [1180, 690, 60, 20]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>08</p>

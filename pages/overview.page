@@ -1,0 +1,241 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: accent-bar
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 30, 40, 4]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 50, 500, 50]
+    content:
+      style: "$title"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>TRIP OVERVIEW</p>
+  - elementId: card1-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 130, 370, 195]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: card1-date
+    elementType: text
+    bounds: [80, 145, 120, 24]
+    content:
+      fontSize: 14
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MAY 23</p>
+  - elementId: card1-text
+    elementType: text
+    bounds: [80, 175, 330, 130]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong>Travel to Milan</strong></p>
+        <p>Overnight in Milan before Iceland flight</p>
+  - elementId: card2-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [450, 130, 370, 195]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: card2-date
+    elementType: text
+    bounds: [470, 145, 120, 24]
+    content:
+      fontSize: 14
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MAY 24</p>
+  - elementId: card2-text
+    elementType: text
+    bounds: [470, 175, 330, 130]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong>Lake Como & Fly to Iceland</strong></p>
+        <p>Lake Como in the morning, fly to Iceland, land 6:20 PM</p>
+  - elementId: card3-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [840, 130, 370, 195]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: card3-date
+    elementType: text
+    bounds: [860, 145, 120, 24]
+    content:
+      fontSize: 14
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MAY 25</p>
+  - elementId: card3-text
+    elementType: text
+    bounds: [860, 175, 330, 130]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong>Golden Circle</strong></p>
+        <p>Iceland's most famous route — geysers, waterfalls, tectonic plates</p>
+  - elementId: card4-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 345, 370, 195]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: card4-date
+    elementType: text
+    bounds: [80, 360, 120, 24]
+    content:
+      fontSize: 14
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MAY 26</p>
+  - elementId: card4-text
+    elementType: text
+    bounds: [80, 390, 330, 130]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong>South Coast</strong></p>
+        <p>Waterfalls, glacier, black sand beaches, plane wreck</p>
+  - elementId: card5-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [450, 345, 370, 195]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: card5-date
+    elementType: text
+    bounds: [470, 360, 120, 24]
+    content:
+      fontSize: 14
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MAY 27</p>
+  - elementId: card5-text
+    elementType: text
+    bounds: [470, 390, 330, 130]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong>Blue Lagoon & Reykjavik</strong></p>
+        <p>Relaxation day — geothermal spa and city exploration</p>
+  - elementId: card6-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [840, 345, 370, 195]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: card6-date
+    elementType: text
+    bounds: [860, 360, 120, 24]
+    content:
+      fontSize: 14
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MAY 28</p>
+  - elementId: card6-text
+    elementType: text
+    bounds: [860, 390, 330, 130]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong>Fly Home</strong></p>
+        <p>Early flight at 8:35 AM. Return car at Keflavik Airport.</p>
+  - elementId: insight-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 565, 1160, 80]
+    fill:
+      type: solid
+      color: "$primary"
+  - elementId: insight-accent
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 565, 4, 80]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: insight-text
+    elementType: text
+    bounds: [90, 575, 1100, 60]
+    content:
+      fontSize: 18
+      color: "$light"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      align: [left, middle]
+      text: |
+        <p><strong>Key insight:</strong> Renting a car saves $260 vs guided tours, covers the same places, and gives complete freedom.</p>
+  - elementId: page-num
+    elementType: text
+    bounds: [1180, 690, 60, 20]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>03</p>

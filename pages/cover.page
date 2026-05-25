@@ -1,0 +1,54 @@
+pageType: cover
+background:
+  type: image
+  src: "https://kimi-web-img.moonshot.cn/img/images.unsplash.com/19ebdc692a426a10395b2d3a249c9ac2c4f6fc52"
+  fit: {mode: cover}
+  mask:
+    type: gradient
+    gradientType: linear
+    angle: 90
+    stops:
+      - {position: 0, color: "#1A1D2100"}
+      - {position: 0.4, color: "#1A1D2166"}
+      - {position: 1, color: "#1A1D21DD"}
+elements:
+  - elementId: cover-title
+    elementType: text
+    bounds: [140, 380, 1000, 80]
+    content:
+      style: "$heroTitle"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>ICELAND ROAD TRIP 2026</p>
+  - elementId: cover-subtitle
+    elementType: text
+    bounds: [190, 470, 900, 40]
+    content:
+      fontSize: 20
+      color: "$light"
+      fontFamily: "QuattrocentoSans"
+      align: [center, middle]
+      wrap: false
+      letterSpacing: 2
+      text: |
+        <p>BUDAPEST → MILAN → ICELAND → VILNIUS</p>
+  - elementId: cover-meta
+    elementType: text
+    bounds: [290, 520, 700, 30]
+    content:
+      fontSize: 16
+      color: "#FFFFFFAA"
+      fontFamily: "QuattrocentoSans"
+      align: [center, middle]
+      wrap: false
+      letterSpacing: 1
+      text: |
+        <p>MAY 24–28, 2026  ·  2 TRAVELERS  ·  SELF-DRIVE</p>
+  - elementId: cover-line
+    elementType: shape
+    shapeName: rect
+    bounds: [540, 565, 200, 2]
+    fill:
+      type: solid
+      color: "$accent"

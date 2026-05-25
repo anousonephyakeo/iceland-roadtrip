@@ -1,0 +1,230 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: accent-bar
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 30, 40, 4]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 50, 500, 50]
+    content:
+      style: "$title"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>FLIGHT SCHEDULE</p>
+  - elementId: card1-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [80, 130, 540, 230]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: card1-accent
+    elementType: shape
+    shapeName: rect
+    bounds: [80, 130, 540, 4]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: card1-date
+    elementType: text
+    bounds: [110, 155, 200, 28]
+    content:
+      fontSize: 16
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MAY 23</p>
+  - elementId: card1-route
+    elementType: text
+    bounds: [110, 195, 480, 40]
+    content:
+      fontSize: 28
+      color: "$primary"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 1
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>BUDAPEST → MILAN</p>
+  - elementId: card1-time
+    elementType: text
+    bounds: [110, 250, 480, 80]
+    content:
+      fontSize: 18
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>7:40 PM – 9:25 PM</p>
+        <p><span style="font-size:14px; color:$secondary;">FRIDAY, 23 MAY</span></p>
+  - elementId: card2-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [660, 130, 540, 230]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: card2-accent
+    elementType: shape
+    shapeName: rect
+    bounds: [660, 130, 540, 4]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: card2-date
+    elementType: text
+    bounds: [690, 155, 200, 28]
+    content:
+      fontSize: 16
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MAY 24</p>
+  - elementId: card2-route
+    elementType: text
+    bounds: [690, 195, 480, 40]
+    content:
+      fontSize: 28
+      color: "$primary"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 1
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MILAN → REYKJAVIK</p>
+  - elementId: card2-time
+    elementType: text
+    bounds: [690, 250, 480, 80]
+    content:
+      fontSize: 18
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>4:00 PM – 6:20 PM <span style="font-size:14px;">(Iceland time)</span></p>
+        <p><span style="font-size:14px; color:$secondary;">SATURDAY, 24 MAY — Adventure begins</span></p>
+  - elementId: card3-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [80, 390, 540, 230]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: card3-accent
+    elementType: shape
+    shapeName: rect
+    bounds: [80, 390, 540, 4]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: card3-date
+    elementType: text
+    bounds: [110, 415, 200, 28]
+    content:
+      fontSize: 16
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MAY 28</p>
+  - elementId: card3-route
+    elementType: text
+    bounds: [110, 455, 480, 40]
+    content:
+      fontSize: 28
+      color: "$primary"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 1
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>REYKJAVIK → VILNIUS</p>
+  - elementId: card3-time
+    elementType: text
+    bounds: [110, 510, 480, 60]
+    content:
+      fontSize: 18
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Morning departure</p>
+        <p><span style="font-size:14px; color:$secondary;">WEDNESDAY, 28 MAY</span></p>
+  - elementId: card4-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [660, 390, 540, 230]
+    fill:
+      type: solid
+      color: "$light"
+  - elementId: card4-accent
+    elementType: shape
+    shapeName: rect
+    bounds: [660, 390, 540, 4]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: card4-date
+    elementType: text
+    bounds: [690, 415, 200, 28]
+    content:
+      fontSize: 16
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MAY 28</p>
+  - elementId: card4-route
+    elementType: text
+    bounds: [690, 455, 480, 40]
+    content:
+      fontSize: 28
+      color: "$primary"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 1
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>VILNIUS → BUDAPEST</p>
+  - elementId: card4-time
+    elementType: text
+    bounds: [690, 510, 480, 60]
+    content:
+      fontSize: 18
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Evening departure</p>
+        <p><span style="font-size:14px; color:$secondary;">WEDNESDAY, 28 MAY — Full loop complete</span></p>
+  - elementId: page-num
+    elementType: text
+    bounds: [1180, 690, 60, 20]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>02</p>

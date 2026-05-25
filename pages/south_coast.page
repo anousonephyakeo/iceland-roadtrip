@@ -1,0 +1,181 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: accent-bar
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 30, 40, 4]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: page-title
+    elementType: text
+    bounds: [60, 50, 700, 50]
+    content:
+      style: "$title"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>SOUTH COAST — MAY 26</p>
+  - elementId: subtitle-line
+    elementType: text
+    bounds: [60, 105, 600, 28]
+    content:
+      fontSize: 16
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>360 km round trip · Leave at 7:00 AM sharp</p>
+  - elementId: col1-stop1
+    elementType: text
+    bounds: [60, 150, 560, 80]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">1.</span> Seljalandsfoss</strong></p>
+        <p>Walk behind the waterfall. Bring a waterproof jacket.</p>
+  - elementId: col1-stop2
+    elementType: text
+    bounds: [60, 240, 560, 80]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">2.</span> Gljufrabui</strong></p>
+        <p>Hidden waterfall 300m away — most tours miss it.</p>
+  - elementId: col1-stop3
+    elementType: text
+    bounds: [60, 330, 560, 80]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">3.</span> Skogafoss</strong></p>
+        <p>60 meters tall. Climb 500 steps to the top for incredible views.</p>
+  - elementId: col1-stop4
+    elementType: text
+    bounds: [60, 440, 560, 80]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">4.</span> Solheimajokull Glacier</strong></p>
+        <p>Walk right up to the glacier lake and see retreating ice up close.</p>
+  - elementId: col2-stop5
+    elementType: text
+    bounds: [660, 150, 560, 80]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">5.</span> DC3 Plane Wreck</strong></p>
+        <p>Crashed US Navy plane on black sand. $10 shuttle or 4 km walk each way.</p>
+  - elementId: col2-stop6
+    elementType: text
+    bounds: [660, 240, 560, 80]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">6.</span> Lunch in Vik</strong></p>
+        <p>Iceland's southernmost town — charming village stop.</p>
+  - elementId: col2-stop7
+    elementType: text
+    bounds: [660, 330, 560, 80]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">7.</span> Reynisfjara Black Sand Beach</strong></p>
+        <p>Stunning black sand and basalt columns.</p>
+  - elementId: col2-stop8
+    elementType: text
+    bounds: [660, 420, 560, 80]
+    content:
+      fontSize: 16
+      color: "$text"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong><span style="color:$accent;">8.</span> Dyrholaey</strong></p>
+        <p>Huge volcanic rock arch over the sea. Puffins nesting on cliffs in May.</p>
+  - elementId: warning-bg
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 520, 1160, 100]
+    fill:
+      type: solid
+      color: "$primary"
+  - elementId: warning-accent
+    elementType: shape
+    shapeName: rect
+    bounds: [60, 520, 4, 100]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: warning-icon
+    elementType: icon
+    bounds: [90, 545, 32, 32]
+    iconName: "fas:triangle-exclamation"
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: warning-text
+    elementType: text
+    bounds: [140, 530, 1060, 80]
+    content:
+      fontSize: 18
+      color: "$light"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.5
+      align: [left, middle]
+      text: |
+        <p><strong>SAFETY WARNING — REYNISFJARA WAVES</strong></p>
+        <p>Sneaker waves come without warning and have caused fatalities. Stay well back from the water at all times. Not even for a photo.</p>
+  - elementId: back-note
+    elementType: text
+    bounds: [60, 635, 400, 28]
+    content:
+      fontSize: 14
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Back in Reykjavik around 5:00 PM</p>
+  - elementId: page-num
+    elementType: text
+    bounds: [1180, 690, 60, 20]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>06</p>

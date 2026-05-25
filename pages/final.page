@@ -1,0 +1,57 @@
+pageType: final
+background:
+  type: image
+  src: "https://kimi-web-img.moonshot.cn/img/static.independent.co.uk/7d6f6abed7530dbbb841e5eff5dc2083eac32d39.jpg"
+  fit: {mode: cover}
+  mask:
+    type: gradient
+    gradientType: linear
+    angle: 90
+    stops:
+      - {position: 0, color: "#1A1D2155"}
+      - {position: 0.4, color: "#1A1D21AA"}
+      - {position: 1, color: "#1A1D21DD"}
+elements:
+  - elementId: final-title
+    elementType: text
+    bounds: [140, 140, 1000, 80]
+    content:
+      style: "$heroTitle"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>HAVE AN AMAZING TRIP</p>
+  - elementId: final-line
+    elementType: shape
+    shapeName: rect
+    bounds: [540, 235, 200, 2]
+    fill:
+      type: solid
+      color: "$accent"
+  - elementId: summary
+    elementType: text
+    bounds: [240, 260, 800, 280]
+    content:
+      fontSize: 18
+      color: "$light"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.8
+      align: [center, top]
+      text: |
+        <p><strong>May 24</strong> — Land 6:20 PM, pick up car, Reykjavik hotel</p>
+        <p><strong>May 25</strong> — Golden Circle, leave 7 AM, back by 2:30 PM, ~$100</p>
+        <p><strong>May 26</strong> — South Coast, leave 7 AM, back ~4:30 PM</p>
+        <p><strong>May 27</strong> — Blue Lagoon morning, book at bluelagoon.com, Reykjavik afternoon</p>
+        <p><strong>May 28</strong> — Alarm 5 AM, leave 5:30 AM, return car, fly 8:35 AM</p>
+  - elementId: closing
+    elementType: text
+    bounds: [340, 570, 600, 40]
+    content:
+      fontSize: 20
+      color: "$accent"
+      fontFamily: "Oranienbaum"
+      letterSpacing: 2
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>edern dee tang pawd pai</p>
